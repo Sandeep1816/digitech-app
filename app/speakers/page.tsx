@@ -3,23 +3,23 @@ import { Twitter, Linkedin, Facebook } from "lucide-react"
 import Image from "next/image"
 import mig1 from "@/public/images/speakers/Dr. Mohd Nor Azman - Ministry of Science, Technology an Innovation.jpeg"
 import img2 from "@/public/images/speakers/Ts. Ahmad Fauzi Masrom - LEMBAGA TABUNG ANGKATAN TENTERA.jpg"
-import img3 from "@/public/images/speakers/Rajesh Grover - Kanmo Group.jpg"
+// import img3 from "@/public/images/speakers/Rajesh Grover - Kanmo Group.jpg"
 import img4 from "@/public/images/speakers/James Thang.png"
-import img5 from "@/public/images/speakers/Angie Teh Sook Mei - Skynet Worldwide (M) Sdn Bhd.jpg"
+// import img5 from "@/public/images/speakers/Angie Teh Sook Mei - Skynet Worldwide (M) Sdn Bhd.jpg"
 // import img6 from "@/public/images/speakers/Heru Sutadi - Indonesian ICT Institute.jpg"
-import img6 from "@/public/images/speakers/WhatsApp Image 2025-01-30 at 6.03.22 PM.jpeg"
+// import img6 from "@/public/images/speakers/WhatsApp Image 2025-01-30 at 6.03.22 PM.jpeg"
 import img7 from "@/public/images/speakers/WhatsApp Image 2025-01-30 at 6.04.49 PM.jpeg"
 import img8 from "@/public/images/speakers/Aaron Lee - ANKH.jpg"
-import img9 from "@/public/images/speakers/Steve Lee - SP Group.jpg"
-import img10 from "@/public/images/speakers/400x400.jpg"
+// import img9 from "@/public/images/speakers/Steve Lee - SP Group.jpg"
+// import img10 from "@/public/images/speakers/400x400.jpg"
 import img11 from "@/public/images/speakers/Alex Tan - Yinson Holdings Berhad.png"
 import img12 from '@/public/images/speakers/WhatsApp Image 2025-02-07 at 3.37.49 PM.jpeg'
 import img13 from '@/public/images/speakers/G Saravana-Thompson.jpg'
-import img14 from '@/public/images/speakers/John Affendi.jpg'
+// import img14 from '@/public/images/speakers/John Affendi.jpg'
 import img15 from '@/public/images/speakers/S K Joo.jpg'
 import img16 from '@/public/images/speakers/Ts.Izzat.jpg'
 import img17 from '@/public/images/speakers/Ts Tengku.jpg'
-import img18 from '@/public/images/speakers/Farouk Abdullah.jpg'
+// import img18 from '@/public/images/speakers/Farouk Abdullah.jpg'
 import img19 from '@/public/images/speakers/Artboard 7(1).jpg'
 import img20 from '@/public/images/speakers/Artboard 11.jpg'
 import img21 from '@/public/images/speakers/Artboard 8.jpg'
@@ -73,38 +73,38 @@ const speakers: Speaker[] = [
     bio: "Ts. Ahmad Fauzi Masrom is an expert in military technology and fund management.",
     social: {},
   },
-  {
-    name: "Rajesh Grover",
-    jobTitle: "Group Vice President - AI, Digital & Omnichannel",
-    organization: "Kanmo Group",
-    imageUrl: img3,
-    bio: "Rajesh Grover leads AI, Digital & Omnichannel initiatives at Kanmo Group.",
-    social: {},
-  },
+  // {
+  //   name: "Rajesh Grover",
+  //   jobTitle: "Group Vice President - AI, Digital & Omnichannel",
+  //   organization: "Kanmo Group",
+  //   imageUrl: img3,
+  //   bio: "Rajesh Grover leads AI, Digital & Omnichannel initiatives at Kanmo Group.",
+  //   social: {},
+  // },
   {
     name: "James Thang",
     jobTitle: "Group CIO",
-    organization: "HELP University",
+    organization: "UCSI Education Group",
     imageUrl: img4,
-    bio: "James Thang is the Group CIO at HELP University.",
+    bio: "James Thang is the Group CIO at UCSI Education Group.",
     social: {},
   },
-  {
-    name: "Angie Teh Sook Mei",
-    jobTitle: "Chief Information Officer",
-    organization: "Skynet Worldwide (M) Sdn Bhd",
-    imageUrl: img5,
-    bio: "Angie Teh Sook Mei is the Chief Information Officer at Skynet Worldwide.",
-    social: {},
-  },
-  {
-    name: "Heru Sutadi",
-    jobTitle: "Executive Director",
-    organization: "Indonesia ICT Institute",
-    imageUrl: img6,
-    bio: "Heru Sutadi is an Executive Director at the Indonesia ICT Institute.",
-    social: {},
-  },
+  // {
+  //   name: "Angie Teh Sook Mei",
+  //   jobTitle: "Chief Information Officer",
+  //   organization: "Skynet Worldwide (M) Sdn Bhd",
+  //   imageUrl: img5,
+  //   bio: "Angie Teh Sook Mei is the Chief Information Officer at Skynet Worldwide.",
+  //   social: {},
+  // },
+  // {
+  //   name: "Heru Sutadi",
+  //   jobTitle: "Executive Director",
+  //   organization: "Indonesia ICT Institute",
+  //   imageUrl: img6,
+  //   bio: "Heru Sutadi is an Executive Director at the Indonesia ICT Institute.",
+  //   social: {},
+  // },
   {
     name: "Mohd Hanapi Bisri",
     jobTitle: "Head of Group ICT",
@@ -121,22 +121,22 @@ const speakers: Speaker[] = [
     bio: "Aaron Lee is the CIO at ANKH Group.",
     social: {},
   },
-  {
-    name: "Steve Lee",
-    jobTitle: "Chief Information Officer & Chief Security Officer",
-    organization: "SP Group",
-    imageUrl: img9,
-    bio: "Steve Lee serves as the CIO and CSO at SP Group.",
-    social: {},
-  },
-  {
-    name: "Alex Ustaris",
-    jobTitle: "Chief Technology Officer",
-    organization: "PHINMA Education",
-    imageUrl: img10,
-    bio: "Alex Ustaris is the Chief Technology Officer at PHINMA Education.",
-    social: {},
-  },
+  // {
+  //   name: "Steve Lee",
+  //   jobTitle: "Chief Information Officer & Chief Security Officer",
+  //   organization: "SP Group",
+  //   imageUrl: img9,
+  //   bio: "Steve Lee serves as the CIO and CSO at SP Group.",
+  //   social: {},
+  // },
+  // {
+  //   name: "Alex Ustaris",
+  //   jobTitle: "Chief Technology Officer",
+  //   organization: "PHINMA Education",
+  //   imageUrl: img10,
+  //   bio: "Alex Ustaris is the Chief Technology Officer at PHINMA Education.",
+  //   social: {},
+  // },
   {
     name: "Alex Tan",
     jobTitle: "Group Chief Information Officer",
@@ -161,14 +161,14 @@ const speakers: Speaker[] = [
     bio: "G Saravanan is a Group Chief Information Officer at Thomson Hospital.",
     social: {},
   },
-  {
-    name: "Johan Affendi",
-    jobTitle: "Head of Business Technology",
-    organization: "Enterprise Business Division,CelcomDigi",
-    imageUrl: img14,
-    bio: "Johan Affendi is a Head of Business Technology at Enterprise Business Division,CelcomDigi.",
-    social: {},
-  },
+  // {
+  //   name: "Johan Affendi",
+  //   jobTitle: "Head of Business Technology",
+  //   organization: "Enterprise Business Division,CelcomDigi",
+  //   imageUrl: img14,
+  //   bio: "Johan Affendi is a Head of Business Technology at Enterprise Business Division,CelcomDigi.",
+  //   social: {},
+  // },
   {
     name: "SK Joo",
     jobTitle: "CTO",
@@ -193,14 +193,14 @@ const speakers: Speaker[] = [
     bio: "Ts. Tengku Azrul Tengku Azhar is a Director at Digital Regulatory & Sustainability.",
     social: {},
   },
-  {
-    name: "Farouk Abdullah",
-    jobTitle: "Chief Digital Officer",
-    organization: "KHIND Malaysia",
-    imageUrl: img18,
-    bio: "Farouk Abdullah is a Chief Digital Officer at KHIND Malaysia.",
-    social: {},
-  },
+  // {
+  //   name: "Farouk Abdullah",
+  //   jobTitle: "Chief Digital Officer",
+  //   organization: "KHIND Malaysia",
+  //   imageUrl: img18,
+  //   bio: "Farouk Abdullah is a Chief Digital Officer at KHIND Malaysia.",
+  //   social: {},
+  // },
     {
     name: "Akshay Moradiya",
     jobTitle: "Channel and Alliance Head",

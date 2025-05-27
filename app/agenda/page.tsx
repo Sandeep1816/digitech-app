@@ -1,11 +1,17 @@
+"use client";
 import Image from "next/image";
 
 const agendaImages = [
   "/images/agenda/1.jpg",
+
+   "/images/agenda/digitechspeaker1.jpg",
+   "/images/agenda/digitechspeaker2.jpg",
+     "/images/agenda/digitechlogos.jpg",
   "/images/agenda/2.jpg",
   "/images/agenda/3.jpg",
   "/images/agenda/4.jpg",
   "/images/agenda/5.jpg",
+  "/images/agenda/fintech.jpg",
 ];
 
 const AgendaPage = () => {
@@ -14,14 +20,16 @@ const AgendaPage = () => {
       <h1 className="text-3xl font-bold mb-6 text-center">Event Agenda</h1>
       <div className="flex flex-col gap-8">
         {agendaImages.map((src, index) => (
-          <div key={index} className="w-full rounded-lg overflow-hidden shadow-md">
+          <div
+            key={index}
+            className="relative w-full aspect-[3508/4955] rounded-lg overflow-hidden shadow-md"
+          >
             <Image
               src={src}
               alt={`Agenda Poster ${index + 1}`}
-              width={3508}
-              height={4955}
-              layout="responsive"
-              objectFit="contain"
+              fill
+              className="object-contain"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 800px"
             />
           </div>
         ))}
