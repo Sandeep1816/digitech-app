@@ -2,15 +2,15 @@
 import Image from "next/image";
 
 const agendaImages = [
-  "/images/agenda/1.jpg",
+  "/images/agenda/11.jpg",
 
-   "/images/agenda/digitechspeaker1.jpg",
-   "/images/agenda/digitechspeaker2.jpg",
-     "/images/agenda/digitechlogos.jpg",
-  "/images/agenda/2.jpg",
-  "/images/agenda/3.jpg",
-  "/images/agenda/4.jpg",
-  "/images/agenda/5.jpg",
+   "/images/agenda/digitechspeaker11.jpg",
+   "/images/agenda/digitechspeaker12.jpg",
+     "/images/agenda/digitechlogo11.jpg",
+  "/images/agenda/12.jpg",
+  "/images/agenda/13.jpg",
+  "/images/agenda/14.jpg",
+
   "/images/agenda/fintech.jpg",
 ];
 
