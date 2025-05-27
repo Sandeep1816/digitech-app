@@ -11,7 +11,7 @@ const agendaImages = [
   "/images/agenda/13.jpg",
   "/images/agenda/14.jpg",
 
-  "/images/agenda/fintech.jpg",
+  "/images/agenda/fintech2.jpg",
 ];
 
 const AgendaPage = () => {
